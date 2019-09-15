@@ -1,0 +1,4 @@
+<!--self-introduction/self-introduction.wxml-->
+<view class="block">
+  <text>{{self}}</text>
+</view>

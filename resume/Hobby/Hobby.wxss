@@ -1,0 +1,9 @@
+/* Hobby/Hobby.wxss */
+.block {
+  height: 90%;
+  width: 90%;
+  background-color: seashell; 
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}

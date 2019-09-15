@@ -1,0 +1,7 @@
+<!--Experience/experience.wxml-->
+<view class="container">
+  <text class="type" plain="{{plain}}"> {{type}}</text>
+  <view class="block" plain="{{plain}}">
+    <text class="text">{{text}}</text>
+  </view>
+</view>

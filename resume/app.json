@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "index/index",
+    "home/home",
+    "IdCard/IdCard",
+    "Education/Education",
+    "experience/experience",
+    "Hobby/Hobby",
+    "self-introduction/self-introduction"
+  ],
+  "window": {
+    
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "My resume",
+    "navigationBarTextStyle": "white"
+    
+  },
+  "sitemapLocation": "sitemap.json"
+}

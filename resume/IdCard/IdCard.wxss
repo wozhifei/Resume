@@ -1,0 +1,123 @@
+/* IdCard/IdCard.wxss */
+
+.floor {
+  background-color: antiquewhite;
+  position: absolute;
+  top:30px;
+  left: 20px;
+  right: 20px;
+  height: 95%;
+  margin-top: -25px;
+  display: flex;
+}
+
+.idimg {
+  height: 100px;
+  width: 25%;
+  position:relative;
+  top:10px;
+  left: 20px;
+}
+
+.tr {
+  position:relative;
+  top:20px;
+  left: 60px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 2rem;
+  align-items: center;
+}
+
+
+.th2 {
+  font-size: 0.8em;
+}
+
+.line {
+  position:absolute;
+  top:120px;
+  margin: 0 auto;
+  width: 100%;
+  height: 10rpx;
+  background-color: #D8D8D8;
+}
+
+.line2 {
+  position:absolute;
+  top:120px;
+  left: 110px;
+  margin: 0 auto;
+  width: 2%;
+  height: 75%;
+  background-color: #D8D8D8;
+}
+
+.SkillTree {
+  position:absolute;
+  font-size: 1.2em;
+  top: 135px;
+  left: 25px;
+}
+
+.tele {
+  position:absolute;
+  top:135px;
+  left: 125px;
+}
+
+.num {
+  position:absolute;
+  top:165px;
+  left: 145px;
+}
+
+.email {
+  position:absolute;
+  top:195px;
+  left: 125px;
+}
+
+.enum {
+  position:absolute;
+  top:225px;
+  left: 145px;
+}
+
+.Github {
+  position:absolute;
+  top:255px;
+  left: 125px;
+}
+
+.gnum {
+  position:absolute;
+  top:285px;
+  left: 145px;
+}
+
+.wechar {
+  position:absolute;
+  top: 315px;
+  left: 125px;
+}
+
+.wnum {
+  position:absolute;
+  top: 345px;
+  left: 145px;
+}
+
+.table_st {
+  position: absolute;
+  top: 165px;
+  left: 20px;
+}
+
+.tr_st {
+  font-size: 0.8em;
+  left: 20px;
+  height: 5rem;
+  line-height: 2rem;
+}

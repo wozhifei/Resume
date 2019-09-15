@@ -1,0 +1,27 @@
+<!--Education/Education.wxml-->
+<view>
+  <!--<view class="bgimg" src="{{bgimg}}"></view>-->
+
+  <text class="school">{{school}}</text>
+  <!--<text class="time">{{time}}</text>-->
+  <text class="department">{{department}}</text>
+
+  <view class="line"></view> 
+  
+
+  <button class="photos" bindtap="mySelect" data-name="相片集">相片集</button>
+
+
+
+  <view class="=schoolinfo">
+   <!-- <image class="bgimg" src="{{bgimg}}"></image>-->
+    <text class="info">{{info}}</text>
+  </view>
+
+  <view class="photosinfo">
+    <view class='page_first'>点击图片翻页查看</view>
+
+  
+  </view>
+
+</view>

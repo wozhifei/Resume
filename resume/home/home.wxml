@@ -1,0 +1,25 @@
+<!--home/home.wxml-->
+<view class="container">
+  <!--quote-->
+  <view>
+    <image class='img1' src='{{imgUrls}}'width='335' height='150' ></image>
+    <text class='text1'>『天上没有白掉的馅饼,倒有白掉\n的砖头.啊!真疼！』</text>
+    <text class="text2"> —其实馅饼挺好吃的 </text>
+  </view>
+  
+  
+  <button class='button1' bindtap='goIdCard'><text class="but1">{{but1}}</text> <text class="but1_1">{{but1_1}}</text></button>
+  <image class='headimg' src='{{headimg}}' width='335' height='150'></image>
+
+  <button class='button2' bindtap='goEducation'>教育背景 <text class="but2">{{but2}}</text></button>
+  <image class='but2img' src='{{but2img}}' width='335' height='150'></image>
+  <button class='button3' bindtap='goExp'>项目经验 <text class="but3">{{but3}}</text></button>
+  <image class='exp' src='{{exp}}' width='335' height='150'></image>
+  <button class='button4' bindtap='goSef'>自我评价 <text class="but4">{{but4}}</text></button>
+  <image class='sef' src='{{sef}}' width='335' height='150'></image>
+  <button class='button5' bindtap='goHobby'>爱好 <text class="but5">{{but5}}</text></button>
+  <image class='Hobby' src='{{Hobby}}' width='335' height='150'></image>
+  
+  
+
+</view>

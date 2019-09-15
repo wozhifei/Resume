@@ -1,0 +1,9 @@
+/* self-introduction/self-introduction.wxss */
+.block {
+  height: 33%;
+  width: 90%;
+  background-color: rgb(255, 255, 255); 
+  position: absolute;
+  top:130px;
+  left: 20px;
+}

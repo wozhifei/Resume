@@ -1,0 +1,47 @@
+<!--IdCard/IdCard.wxml-->
+<view>
+  <view class="floor">
+    <image class="idimg" src="{{idimg}}"></image>
+    <view class="table">
+      <view class="tr">
+        <view class="th1"> 刘文博 LIU WENBO </view>
+      </view>
+      <view class="tr">
+        <view class="th2"> Web前端 / 应届 </view>
+      </view>
+    </view>
+
+    <!--line-->
+    <view class="line"></view>
+    <view class="line2"></view>
+    
+    <!--Skill tree-->
+    <view>
+      <view class="SkillTree"> 技能树 </view>
+      <view class="table_st">
+        <view class="tr_st">
+          <view> HTML</view>
+          <progress class="progress_st1" percent="70"></progress>
+          <view> JavaScript </view>
+          <progress class="progress_st2" percent="70"></progress>
+          <view> PHP </view>
+          <progress class="progress_st3" percent="70"></progress>
+          <view>Python</view>
+          <progress class="progress_st4" percent="60"></progress>
+        </view>
+      </view>
+    </view>
+
+    <!--information-->
+    <view> 
+      <text class="tele"> Telephone: </text>
+      <text class="num"> {{num}} </text>
+      <text class="email"> E-mail: </text>
+      <text class="enum"> {{enum}}</text>
+      <text class="Github"> Github: </text>
+      <text class="gnum"> {{gnum}} </text>
+      <text class="wechar"> WeChat: </text>
+      <text class="wnum"> {{wnum}} </text>
+    </view>
+  </view>
+</view>

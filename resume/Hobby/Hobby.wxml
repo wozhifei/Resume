@@ -1,0 +1,4 @@
+<!--Hobby/Hobby.wxml-->
+<view class="block">
+  <text>{{self}}</text>
+</view>
